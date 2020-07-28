@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HW1_JulianaHammond</title>
+    <style>
+        .container-fluid {
+            border-radius: 3px;
+            padding: 50px;
+            width: 100%;
+        }
+
+        input[type=text], select, textarea {
+            width: 100%;
+            margin: 0px;
+            padding: 10px;
+            border: 1px solid;
+            border-color: lightgray;
+            border-radius: 4px;
+        }
+
+        * {
+            box-sizing: border-box
+        }
+
+        .Juform {
+            width: 100%; 
+        }
+
+        input[type=submit] {
+            padding: 8px;
+            border: none;
+            background-color: limegreen;
+            border-radius: 4px;
+            color: white;
+        }
+
+        label {
+            display:inline-block;
+            padding: 5px 5px 5px 0;
+        }
+
+        textarea {
+            height: 200px;
+        }
+        
+        .Jform {
+            width: 60%;
+            margin-left: 20%;
+            background-color: #f2f2f2;   
+            padding: 20px 20px 20px 20px;
+        }
+
+        .HWform {
+            padding-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class= "container-fluid">
+        <div class="Jform">
+        <form action="">
+            <div class="HWform">
+                <div class="Juform">
+                    <label for="Fname">First Name</label>
+                    <input type="text" id="Fname" name="Firstname" placeholder="Your name..">
+                </div>
+            </div>
+            <div class="HWform">
+                <div class="Juform">
+                    <label for="Lname">Last Name</label>
+                    <input type="text" id="Lname" name="Lastname" placeholder="Your last name..">
+                </div>
+            </div>
+            <div class="HWform">
+                <div class="Juform">
+                    <label for="Cntry">Country</label>
+                    <select name="Country" id="Country">
+                        <option value="Australia">Australia</option>
+                    </select>
+                </div>
+            </div>
+            <div class="HWform">
+                <div class="Juform">
+                    <label for="Subject">Subject</label>
+                    <textarea name="Subject" id="Subject" placeholder="Write something.."></textarea>
+                </div>
+            </div>
+            <br>
+            <div class="HWform">
+                <input type="Submit" value="Submit">
+            </div>
+        </form>
+        </div>
+    </div>
+</body>
+</html>
